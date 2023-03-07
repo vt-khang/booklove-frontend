@@ -1,0 +1,16 @@
+export const CONTACT_TITLE = 'LIÊN HỆ';
+export const LOCATION = 'Phường 9, Quận Phú Nhuận, Thành phố Hồ Chí Minh';
+export const LOCATION_LINK = 'https://goo.gl/maps/QMcF6oy3kD32JAjS9';
+export const PHONE = '0773 100 985';
+export const PHONE_LINK = 'tel:0773100985';
+export const EMAIL = 'vuong.khang3012@gmail.com';
+export const FACEBOOK = 'https://www.facebook.com/vuongthe.khang';
+export const LINKEDIN = 'https://www.linkedin.com/in/vt-khang';
+export const GITHUB = 'https://github.com/vt-khang';
+export const DOWNLOAD_BUTTON = 'Tải về CV';
+export const NAME_INPUT = 'Tên của bạn';
+export const EMAIL_INPUT = 'Email của bạn';
+export const MESSAGE_INPUT = 'Ý kiến đánh giá';
+export const REQUIRED_EMAIL_ERROR = 'Bắt buộc';
+export const INVALID_EMAIL_ERROR = 'Không hợp lệ';
+export const FEEDBACK_BUTTON = 'Phản hồi';

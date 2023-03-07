@@ -1,0 +1,27 @@
+.page {
+  @apply w-9 h-9 flex items-center justify-center text-neutral-500 hover:no-underline;
+}
+
+.page-wrapper {
+  @apply flex items-center justify-center;
+}
+
+.page-active {
+  @apply text-neutral-100;
+}
+
+.page-item {
+  @apply relative m-[10px] bg-transparent rounded-full duration-200 hover:bg-red-100;
+}
+
+.page-item-active {
+  @apply bg-red-200 hover:bg-red-200 duration-0;
+}
+
+.page-btn {
+  @apply relative mx-5 my-[10px];
+}
+
+.page-btn-inside {
+  @apply w-4 h-4 flex items-center justify-center;
+}

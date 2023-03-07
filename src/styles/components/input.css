@@ -1,0 +1,75 @@
+.input {
+  @apply px-5 py-[10px] border border-neutral-300 outline-none rounded-[10px] duration-300 placeholder:text-neutral-300 hover:border-blue-100 focus:border-blue-100;
+}
+
+.input-password,
+.input-search {
+  @apply pr-10;
+}
+
+.input-label {
+  @apply mr-4 text-neutral-400;
+}
+
+.input-required {
+  @apply ml-[2px] text-red-200;
+}
+
+.input-disabled {
+  @apply bg-neutral-200 cursor-not-allowed duration-0 hover:border-neutral-300 focus:border-neutral-300;
+}
+
+.input-disabled-textarea {
+  @apply bg-neutral-200 cursor-not-allowed resize-none duration-0 hover:border-neutral-300 focus:border-neutral-300;
+}
+
+.input-span {
+  @apply relative;
+}
+
+.input-span > span {
+  @apply relative;
+}
+
+.input-error {
+  @apply border-red-200 hover:border-red-200 focus:border-red-200;
+}
+
+.input-error-msg {
+  @apply ml-5 mt-1 text-xs text-red-200 font-medium;
+}
+
+.input-allow-clear {
+  @apply pr-10;
+}
+
+.input-allow-clear-search {
+  @apply pr-16;
+}
+
+.input-allow-clear-password {
+  @apply pr-16;
+}
+
+.input-allow-clear-textarea {
+  @apply pr-5;
+}
+
+.input-no-resize {
+  @apply resize-none;
+}
+
+.input-count {
+  @apply absolute right-0 mt-1 text-neutral-300 text-sm;
+}
+
+.close-btn,
+.search-btn,
+.eye-open-btn,
+.eye-close-btn {
+  @apply absolute top-1/2 right-3 -translate-y-1/2;
+}
+
+.close-btn-textarea {
+  @apply -top-[10px];
+}

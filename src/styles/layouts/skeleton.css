@@ -1,0 +1,153 @@
+/* CategorySkeleton */
+.category-skeleton {
+  @apply flex items-center justify-center gap-[40px];
+}
+
+.category-skeleton-btn {
+  @apply w-[160px] h-[24px];
+}
+/* ================ */
+
+
+/* CategoryItemSkeleton */
+.category-item-skeleton {
+  @apply px-[30px];
+}
+
+.category-item-skeleton-title {
+  @apply mb-[20px] h-[36px];
+}
+
+.category-item-skeleton-sub {
+  @apply w-[90%] h-[22px];
+}
+/* ==================== */
+
+
+/* CarouselPromotionSkeleton */
+.carousel-promotion-skeleton {
+  @apply w-[988px] h-[300px] rounded-[20px];
+}
+/* ======================== */
+
+
+/* TopListSkeleton */
+.top-list-skeleton-title {
+  @apply w-[80%] h-[40px] ml-[8px] mb-[20px];
+}
+
+.top-list-skeleton-list {
+  @apply grid grid-cols-4 gap-[20px] justify-items-center;
+}
+
+.top-list-skeleton-card {
+  @apply w-[200px] h-[280px];
+}
+
+.top-list-skeleton-btn {
+  @apply w-[280px] h-[50px] mt-[30px] block mx-auto;
+}
+/* =============== */
+
+
+/* FilterSkeleton */
+.filter-skeleton-title {
+  @apply w-[250px] h-[40px];
+}
+
+.filter-skeleton-sub-title {
+  @apply w-full h-[40px] mt-[25px] mb-[14px];
+}
+
+.filter-skeleton-item {
+  @apply w-[200px] h-[30px] mb-[10px];
+}
+/* ============== */
+
+
+/* ProductSkeleton */
+.product-skeleton-title {
+  @apply w-[80%] h-[40px] ml-[8px] mb-[20px];
+}
+
+.product-skeleton-sub-title {
+  @apply w-[60%] h-[40px] ml-[8px] mb-[20px];
+}
+
+.product-skeleton-list {
+  @apply grid grid-cols-4 gap-[20px] justify-items-center;
+}
+
+.product-skeleton-card {
+  @apply w-[200px] h-[280px];
+}
+
+.product-skeleton-pagination {
+  @apply w-[420px] h-[50px] mt-[30px] block mx-auto;
+}
+/* =============== */
+
+
+/* ImageInfoSkeleton */
+.image-info-skeleton {
+  @apply w-full h-full;
+}
+/* ================= */
+
+
+/* TextInfoSkeleton */
+.text-info-skeleton-title {
+  @apply mb-[15px] w-[80%] h-[50px];
+}
+
+.text-info-skeleton-sub-title {
+  @apply mb-[12px] w-[480px] h-[30px];
+}
+
+.text-info-skeleton-price {
+  @apply mt-[20px] w-[90%] h-[60px];
+}
+
+.text-info-skeleton-genre {
+  @apply mt-[30px] flex items-center gap-[12px];
+}
+
+.text-info-skeleton-genre-btn {
+  @apply w-[120px] h-[30px];
+}
+
+.text-info-skeleton-other-1 {
+  @apply mt-[20px] w-[300px] h-[30px]
+}
+
+.text-info-skeleton-other-2 {
+  @apply mt-[20px] w-[450px] h-[30px]
+}
+
+.text-info-skeleton-other-3 {
+  @apply mt-[20px] w-[600px] h-[30px]
+}
+/* ================ */
+
+
+/* DetailInfoSkeleton */
+.detail-info-skeleton {
+  @apply flex flex-col gap-[12px];
+}
+
+.detail-info-skeleton-1 {
+  @apply w-[30%] h-[25px];
+}
+
+.detail-info-skeleton-2 {
+  @apply w-[60%] h-[25px];
+}
+
+.detail-info-skeleton-3 {
+  @apply w-[85%] h-[25px];
+}
+
+.detail-info-skeleton-4 {
+  @apply w-[100%] h-[25px];
+}
+/* ================== */

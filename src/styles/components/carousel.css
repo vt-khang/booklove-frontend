@@ -1,0 +1,48 @@
+.carousel {
+  @apply relative overflow-hidden w-96 h-64 bg-neutral-200;
+}
+
+.carousel-list {
+  @apply relative flex w-full h-full duration-200;
+}
+
+.carousel-hover {
+  @apply opacity-0 duration-300 group-hover:opacity-100;
+}
+
+.carousel-prev-btn {
+  @apply absolute top-1/2 left-0 -translate-y-1/2;
+}
+
+.carousel-next-btn {
+  @apply absolute top-1/2 right-0 -translate-y-1/2;
+}
+
+.prev-btn, 
+.next-btn {
+  @apply duration-300 hover:scale-110;
+}
+
+.carousel-dot {
+  @apply absolute overflow-hidden;
+}
+
+.carousel-dot-list {
+  @apply relative w-full h-full flex items-center gap-[6px] duration-300;
+}
+
+.carousel-dot-bottom {
+  @apply bottom-3 left-1/2 -translate-x-1/2;
+}
+
+.carousel-dot-top {
+  @apply top-3 left-1/2 -translate-x-1/2;
+}
+
+.dot {
+  @apply w-2 h-2 grow shrink-0 bg-neutral-500 rounded-full opacity-30;
+}
+
+.dot-active {
+  @apply w-2 h-2 bg-neutral-100 rounded-full opacity-100;
+}

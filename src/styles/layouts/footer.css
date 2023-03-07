@@ -1,0 +1,98 @@
+/* Contact */
+.contact {
+  @apply py-[50px] flex items-center justify-center gap-[100px] bg-blue-0;
+}
+/* ======= */
+
+
+/* ContactLeft */
+.contact-left {
+  @apply max-w-[500px];
+}
+
+.contact-title {
+  @apply mt-[15px] mb-[45px] text-center text-[38px] text-red-200 font-black;
+}
+
+.contact-address {
+  @apply flex flex-col gap-[24px];
+}
+
+.contact-social {
+  @apply my-[50px] flex items-center justify-center gap-[24px];
+}
+/* ========== */
+
+
+/* ContactRight */
+.contact-right {
+  @apply max-w-[500px];
+}
+
+.contact-input {
+  @apply !p-[15px] mb-[17px] w-full border-none font-medium overflow-hidden;
+}
+
+.contact-input-error {
+  @apply !pr-[120px];
+}
+
+.contact-error {
+  @apply absolute top-0 right-[16px] translate-y-[14px];
+}
+/* ============ */
+
+
+/* Address */
+.address {
+  @apply flex items-center;
+}
+
+.address-icon {
+  @apply mx-[18px];
+}
+
+.address-link {
+  @apply !text-neutral-500 font-normal;
+}
+/* ======= */
+
+
+/* Social */
+.social-icon {
+  @apply duration-300 hover:scale-[1.2] hover:rotate-[30deg];
+}
+/* ====== */
+
+
+/* Download */
+.download {
+  @apply flex items-center justify-center;
+}
+
+.download-btn {
+  @apply px-[40px] py-[8px] border-none bg-red-200 !no-underline !text-neutral-100 font-semibold shadow-button duration-200 hover:scale-110 hover:bg-red-200;
+}
+/* ======== */
+
+
+/* FeedbackButton */
+.feedback {
+  @apply mt-[40px] flex items-center justify-center;
+}
+
+.feedback-btn {
+  @apply px-[40px] py-[8px] border-none font-semibold shadow-button duration-200 hover:scale-110 hover:bg-red-200 hover:text-neutral-100;
+}
+/* ============= */
+
+
+/* Copyright */
+.copyright {
+  @apply py-[20px] bg-blue-300;
+}
+
+.copyright > p {
+  @apply text-center font-medium text-neutral-100;
+}
+/* ========= */

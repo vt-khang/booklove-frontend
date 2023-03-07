@@ -1,0 +1,163 @@
+/* Menu */
+.menu {
+  @apply px-[7%] py-[20px] flex flex-wrap justify-center;
+}
+/* ==== */
+
+
+/* LeftMenu */
+.left-menu {
+  @apply max-w-[400px] min-h-[809px] max-h-[809px] basis-[30%];
+}
+
+.left-menu-section {
+  @apply h-full mr-[10px] p-[30px] rounded-[20px] bg-neutral-100 shadow-bar;
+}
+/* ======== */
+
+
+/* RightMenu */
+.right-menu { 
+  @apply max-w-[940px] min-h-[809px] basis-[70%];
+}
+
+.right-menu-section {
+  @apply h-full p-[30px] rounded-[20px] bg-neutral-100 shadow-bar;
+}
+/* ========= */
+
+
+/* Filter */
+.filter-title {
+  @apply text-[32px] font-bold;
+}
+/* ====== */
+
+
+/* LanguagesFilter */
+.languages-filter {
+  @apply my-[30px];
+}
+
+.languages-filter-title {
+  @apply mb-[20px] text-[24px] font-bold;
+}
+
+.languages-filter-checkbox {
+  @apply ml-[20px] flex flex-col gap-[10px];
+}
+
+.languages-filter-label {
+  @apply font-medium;
+}
+/* =============== */
+
+
+/* GenresFilter */
+.genres-filter {
+  @apply my-[30px];
+}
+
+.genres-filter-title {
+  @apply mb-[20px] text-[24px] font-bold;
+}
+
+.genres-filter-checkbox {
+  @apply ml-[20px] flex flex-col gap-[10px];
+}
+
+.genres-filter-label {
+  @apply font-medium;
+}
+/* ============ */
+
+
+/* ApplyButton */
+.apply {
+  @apply text-center;
+}
+
+.apply-btn {
+  @apply !px-[40px] !py-[8px] font-semibold;
+}
+/* =========== */
+
+
+/* Search */
+.search-title {
+  @apply inline-block text-[32px] font-bold;
+}
+
+.search-title-result {
+  @apply ml-[12px];
+}
+/* ====== */
+
+
+/* Sort */
+.sort {
+  @apply my-[30px] flex items-center;
+}
+
+.sort-title {
+  @apply mr-[40px] font-bold;
+}
+
+.sort-list {
+  @apply flex items-center gap-[30px];
+}
+
+.sort-item {
+  @apply !no-underline !text-neutral-500 font-medium duration-300 hover:!text-blue-100;
+}
+
+.sort-item-active {
+  @apply !text-blue-100 duration-0;
+}
+/* ==== */
+
+
+/* ProductList */
+.product-list-pagination {
+  @apply my-[40px];
+}
+
+.product-list-product-card {
+  @apply grid grid-cols-4 justify-items-center;
+}
+
+.product-list-pagination-empty {
+  @apply pt-[30px] text-[18px] font-medium text-center;
+}
+
+.product-pagination {
+  @apply mt-[50px];
+}
+
+.product-pagination-item {
+  @apply font-semibold;
+}
+/* ========== */
+
+
+/* ProductCard */
+.product-card {
+  @apply inline-block p-[20px] cursor-pointer duration-200 hover:shadow-bar;
+}
+
+.product-card-img {
+  @apply w-[175px] h-[210px] object-contain;
+}
+
+.product-card-title {
+  @apply mt-[8px] mb-[5px] h-[45px] text-[15px] font-bold text-neutral-500;
+}
+
+.product-card-arthur {
+  @apply my-[5px] text-[12px] font-medium text-green;
+}
+
+.product-card-price {
+  @apply text-[18px] font-semibold text-red-200;
+}
+/* =========== */

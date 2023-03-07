@@ -1,0 +1,110 @@
+/* Info */
+.info {
+  @apply px-[7%] py-[20px] flex flex-wrap justify-between;
+}
+/* ==== */
+
+
+/* LeftInfo */
+.left-info {
+  @apply basis-[40%];
+}
+
+.left-info-section {
+  @apply h-[570px] mr-[10px] p-[30px] rounded-[20px] bg-neutral-100 shadow-bar;
+}
+/* ======== */
+
+
+/* RightInfo */
+.right-info {
+  @apply basis-[60%];
+}
+
+.right-info-section {
+  @apply h-[570px] p-[30px] rounded-[20px] bg-neutral-100 shadow-bar;
+}
+/* ========= */
+
+
+/* BottomInfo */
+.bottom-info-section {
+  @apply w-full mt-[10px] p-[30px] rounded-[20px] bg-neutral-100 shadow-bar;
+}
+/* ========== */
+
+
+/* ImageInfo */
+.image-info {
+  @apply w-full h-full object-contain;
+}
+/* ========= */
+
+
+/* TextInfo */
+.text-info-title {
+  @apply mb-[8px] text-[30px] font-bold;
+}
+
+.text-info-arthur {
+  @apply mb-[4px] text-[15px] font-medium;
+}
+
+.text-info-arthur > span {
+  @apply text-green font-normal hover:underline cursor-pointer;
+}
+
+.text-info-language {
+  @apply mb-[8px] text-[15px] font-medium;
+}
+
+.text-info-language-link {
+  @apply !text-green font-normal cursor-pointer;
+}
+
+.text-info-price {
+  @apply mt-[20px] px-[40px] py-[10px] text-[40px] font-semibold text-red-200 rounded-[20px] bg-neutral-200;
+}
+
+.text-info-hr {
+  @apply my-[20px] text-neutral-300;
+}
+
+.text-info-genres {
+  @apply flex items-center gap-[12px];
+}
+
+.text-info-genres-title {
+  @apply mr-[18px] font-medium;
+}
+
+.text-info-genres-item {
+  @apply px-[20px] py-[5px] text-[13px] bg-neutral-300 !text-neutral-500 font-medium rounded-[40px] !no-underline duration-300 hover:bg-neutral-500 hover:!text-neutral-100;
+}
+
+.text-info-quantity {
+  @apply flex items-center;
+}
+
+.text-info-quantity-title {
+  @apply mr-[28px] font-medium;
+}
+
+.text-info-quantity-input {
+  @apply w-[100px] text-center;
+}
+/* ======== */
+
+
+/* BuyButton */
+.buy-btn {
+  @apply w-full mt-[24px] !py-[12px] text-[20px] font-bold;
+}
+/* ========= */
+
+
+/* DetailInfo */
+.detail-info {
+  @apply p-[20px] text-justify text-[16px] border border-neutral-500;
+}
+/* ========== */

@@ -1,0 +1,87 @@
+/* Header */
+.header {
+  @apply px-[7%] py-[20px] flex flex-wrap items-center justify-start bg-blue-300 fixed top-0 w-full z-10;
+}
+
+.header + main {
+  @apply mt-[85px];
+}
+/* ====== */
+
+
+/* Main */
+.main {
+  @apply bg-fixed bg-gradient-to-t from-[rgba(208,229,240,1)] via-[rgba(239,239,239,1)] to-[rgba(255,255,255,1)];
+}
+/* ==== */
+
+
+/* HeaderMid */
+.header-mid {
+  @apply mx-[80px];
+}
+/* ========= */
+
+
+/* HeaderRight */
+.header-right {
+  @apply flex flex-grow basis-auto items-center justify-end;
+}
+
+.header-link {
+  @apply mr-[20px] flex gap-[12px];
+}
+/* =========== */
+
+
+/* SearchBar */
+.search-bar {
+  @apply w-[500px] bg-neutral-100 border-none font-medium !rounded-full;
+}
+/* ========= */
+
+
+/* HomeButton */
+.home-btn {
+  @apply px-[20px] py-[6px] flex !text-neutral-100 font-semibold bg-transparent duration-200 hover:bg-blue-200;
+}
+
+.home-icon {
+  @apply mr-[12px];
+}
+/* ========== */
+
+
+/* CartButton */
+.cart-btn {
+  @apply p-[8px] rounded-full bg-transparent cursor-pointer duration-200 hover:bg-blue-200;
+}
+
+.cart-num-orders {
+  @apply absolute top-0 right-0 translate-x-[8px] -translate-y-[8px] w-[18px] h-[18px] flex items-center justify-center bg-red-200 text-neutral-100 text-[10px] rounded-full border-[2px] border-blue-300;
+}
+/* ========== */
+
+
+/* Category */
+.category {
+  @apply mt-[84px] px-[7%] py-[8px] bg-blue-0;
+}
+
+.category-list {
+  @apply !w-full !h-[36px] !bg-blue-0;
+}
+
+.category-item {
+  @apply flex items-center gap-[140px];
+}
+
+.category-item-btn {
+  @apply text-[13px] !text-neutral-500 font-medium !no-underline duration-200 hover:!text-red-200;
+}
+
+.category-prev-btn,
+.category-next-btn {
+  @apply stroke-neutral-500 stroke-[3px];
+}
+/* ======== */

@@ -1,0 +1,3 @@
+.carousel-item {
+  @apply w-full h-full flex grow shrink-0 basis-full items-center justify-center;
+}

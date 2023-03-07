@@ -1,0 +1,79 @@
+/* Home */
+.home {
+  @apply px-[7%] py-[20px] flex flex-wrap justify-between;
+}
+/* ==== */
+
+
+/* LeftHome */
+.left-home {
+  @apply basis-[25%];
+}
+
+.left-home-section {
+  @apply max-w-[300px] mr-[25px] py-[30px] h-[80vh] sticky top-[105px] no-scrollbar overflow-y-scroll rounded-[20px] bg-neutral-100 shadow-bar;
+}
+/* ======== */
+
+
+/* RightHome */
+.right-home {
+  @apply basis-[75%];
+}
+
+.right-home-section {
+  @apply py-[30px] rounded-[20px] bg-neutral-100 shadow-bar;
+}
+/* ========= */
+
+
+/* Category */
+.category-title {
+  @apply mb-[15px] px-[30px] text-[20px] font-bold;
+}
+
+.category-btn {
+  @apply px-[30px] py-[10px] block w-full !text-neutral-500 font-medium !no-underline !rounded-none duration-200 hover:bg-blue-0;
+}
+
+.category-icon {
+  @apply absolute top-1/2 right-[32px] -translate-y-1/2 opacity-0 duration-300 group-hover:opacity-100 group-hover:right-[24px];
+}
+/* ======== */
+
+
+/* CarouselPromotion */
+.carousel-promotion {
+  @apply !w-[988px] !h-[300px] rounded-[20px] cursor-pointer shadow-bar;
+}
+
+.carousel-promotion-img {
+  @apply w-full h-full object-cover;
+}
+/* ================= */
+
+
+/* TopList */
+.product-top-list {
+  @apply p-[30px] rounded-[20px] bg-neutral-100 shadow-bar;
+}
+
+.product-top-list-title {
+  @apply mb-[20px] text-[20px] font-bold;
+}
+
+.product-top-list-product-card {
+  @apply grid grid-cols-4 justify-items-center;
+}
+/* ====== */
+
+
+/* ViewMore */
+.view-more {
+  @apply mt-[36px] text-center;
+}
+
+.view-more-btn {
+  @apply px-[30px] py-[10px] !text-blue-100 border-[2px] !no-underline !rounded-none duration-200 hover:bg-blue-100 hover:!text-neutral-100;
+}
+/* ======== */

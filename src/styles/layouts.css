@@ -1,0 +1,6 @@
+@import './layouts/header.css';
+@import './layouts/home.css';
+@import './layouts/footer.css';
+@import './layouts/product-list.css';
+@import './layouts/product-view.css';
+@import './layouts/skeleton.css';
