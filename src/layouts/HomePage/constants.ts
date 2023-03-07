@@ -1,0 +1,1 @@
+export const HOME_HELMET = 'BookLove | Trang chủ'

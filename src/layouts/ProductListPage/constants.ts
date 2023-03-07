@@ -1,0 +1,1 @@
+export const PRODUCT_LIST_HELMET = 'BookLove | Danh sách các sản phẩm';

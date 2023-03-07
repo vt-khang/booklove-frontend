@@ -1,5 +1,6 @@
 import { useFetchProductByKeyword } from '@/pages/api/useFetchProductByKeyword';
 import { useContext } from 'react';
+import { Helmet } from 'react-helmet';
 import ProductContext from '@/contexts/ProductContext';
 import LeftInfo from './LeftInfo';
 import RightInfo from './RightInfo';
@@ -18,6 +19,10 @@ function Info() {
         <div className="info">
           {product ? (
             <>
+              <Helmet>
+                <title>{product.name}</title>
+              </Helmet>
+
               <div className="left-info">
                 <LeftInfo
                   image={product.image}
