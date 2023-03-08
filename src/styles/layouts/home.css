@@ -1,24 +1,24 @@
 /* Home */
 .home {
-  @apply px-[7%] py-[20px] flex flex-wrap justify-between;
+  @apply px-[7%] py-[20px] flex flex-wrap justify-center;
 }
 /* ==== */
 
 
 /* LeftHome */
 .left-home {
-  @apply basis-[25%];
+  @apply max-w-[300px] basis-[25%];
 }
 
 .left-home-section {
-  @apply max-w-[300px] mr-[25px] py-[30px] h-[80vh] sticky top-[105px] no-scrollbar overflow-y-scroll rounded-[20px] bg-neutral-100 shadow-bar;
+  @apply mr-[25px] h-[80vh] max-h-[633px] py-[30px] sticky top-[105px] no-scrollbar overflow-y-scroll rounded-[20px] bg-neutral-100 shadow-bar;
 }
 /* ======== */
 
 
 /* RightHome */
 .right-home {
-  @apply basis-[75%];
+  @apply max-w-[988px] basis-[75%];
 }
 
 .right-home-section {

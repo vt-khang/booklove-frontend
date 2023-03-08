@@ -1,13 +1,13 @@
 /* Info */
 .info {
-  @apply px-[7%] py-[20px] flex flex-wrap justify-between;
+  @apply px-[7%] py-[20px] flex flex-wrap justify-center;
 }
 /* ==== */
 
 
 /* LeftInfo */
 .left-info {
-  @apply basis-[40%];
+  @apply max-w-[517px] basis-[40%];
 }
 
 .left-info-section {
@@ -18,7 +18,7 @@
 
 /* RightInfo */
 .right-info {
-  @apply basis-[60%];
+  @apply max-w-[791px] basis-[60%];
 }
 
 .right-info-section {
@@ -29,7 +29,7 @@
 
 /* BottomInfo */
 .bottom-info-section {
-  @apply w-full mt-[10px] p-[30px] rounded-[20px] bg-neutral-100 shadow-bar;
+  @apply max-w-[1310px] mt-[10px] p-[30px] rounded-[20px] bg-neutral-100 shadow-bar;
 }
 /* ========== */
 
