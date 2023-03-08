@@ -7,6 +7,7 @@ const nextConfig = {
   },
   env: {
     LOCAL_API: process.env.LOCAL_API,
+    HOST_API: process.env.HOST_API,
   },
 };
 
