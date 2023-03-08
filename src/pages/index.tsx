@@ -1,9 +1,9 @@
 import { QueryClient, QueryClientProvider } from 'react-query';
 import HomePage from '@/layouts/HomePage';
 
-const queryClient = new QueryClient();
-
 function Home() {
+  const queryClient = new QueryClient();
+
   return (
     <QueryClientProvider client={queryClient}>
       <HomePage />

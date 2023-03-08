@@ -50,6 +50,17 @@
 /* =============== */
 
 
+/* BreadcrumbSkeleton */
+.breadcrumb-skeleton {
+  @apply flex gap-[20px];
+}
+
+.breadcrumb-skeleton-item {
+  @apply w-[120px] h-[22px];
+}
+/* ================== */
+
+
 /* FilterSkeleton */
 .filter-skeleton-title {
   @apply w-[250px] h-[40px];

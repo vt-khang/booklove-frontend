@@ -1,0 +1,11 @@
+.breadcrumb {
+  @apply flex;
+}
+
+.breadcrumb-item {
+  @apply cursor-pointer hover:underline;
+}
+
+.breadcrumb-separator {
+  @apply mx-2;
+}

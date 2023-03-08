@@ -27,6 +27,13 @@
 /* ========= */
 
 
+/* TopMenu */
+.top-menu {
+  @apply max-w-[1340px] mb-[20px] basis-full;
+}
+/* ======= */
+
+
 /* Filter */
 .filter-title {
   @apply text-[32px] font-bold;
@@ -138,6 +145,13 @@
   @apply font-semibold;
 }
 /* ========== */
+
+
+/* ProductBreadcrumb */
+.product-breadcrumb-item {
+  @apply text-neutral-500;
+}
+/* ================= */
 
 
 /* ProductCard */

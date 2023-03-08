@@ -1,7 +1,9 @@
 import { useFetchProductByKeyword } from '@/pages/api/useFetchProductByKeyword';
 import { useContext } from 'react';
+import { ProductBreadcrumbItemProps } from '@/layouts/ProductListPage/ProductBreadcrumb/type';
 import { Helmet } from 'react-helmet';
 import ProductContext from '@/contexts/ProductContext';
+import ProductBreadcrumb from '@/layouts/ProductListPage/ProductBreadcrumb';
 import LeftInfo from './LeftInfo';
 import RightInfo from './RightInfo';
 import BottomInfo from './BottomInfo';
@@ -13,6 +15,27 @@ function Info() {
   const keyword = useContext(ProductContext);
   const { data: product } = useFetchProductByKeyword(keyword);
 
+  let category: ProductBreadcrumbItemProps | undefined = undefined;
+  if (product) {
+    category = {
+      name: product.genres[0].name,
+      link: {
+        pathname: '/products',
+        query: { genre: product.genres[0].keyword },
+      },
+    };
+  }
+
+  let productData: ProductBreadcrumbItemProps | undefined = undefined;
+  if (product) {
+    productData = {
+      name: product.name,
+      link: {
+        pathname: `/products/${product.keyword}`,
+      },
+    };
+  }
+
   return (
     <main>
       <div className="main">
@@ -22,6 +45,13 @@ function Info() {
               <Helmet>
                 <title>{product.name}</title>
               </Helmet>
+
+              <div className="top-menu">
+                <ProductBreadcrumb
+                  category={category}
+                  product={productData}
+                />
+              </div>
 
               <div className="left-info">
                 <LeftInfo

@@ -42,8 +42,6 @@ function Filter() {
     }
   };
 
-  console.log(router.query);
-
   return (
     <FormProvider {...methods}>
       <form onSubmit={methods.handleSubmit(onSubmit)}>

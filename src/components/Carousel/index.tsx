@@ -102,7 +102,7 @@ function Carousel({
               className="carousel-dot-list"
               style={{ left: -1 * width.dotLeft }}
             >
-              {[...Array(slide.total)].map((element, index) => (
+              {[...Array(slide.total)].map((_, index) => (
                 <span
                   className={handleDotClasses(index)}
                   key={index}
