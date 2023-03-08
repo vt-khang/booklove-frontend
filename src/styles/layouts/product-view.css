@@ -28,8 +28,12 @@
 
 
 /* BottomInfo */
+.bottom-info {
+  @apply max-w-[1310px] basis-full;
+}
+
 .bottom-info-section {
-  @apply max-w-[1310px] mt-[10px] p-[30px] rounded-[20px] bg-neutral-100 shadow-bar;
+  @apply mt-[10px] p-[30px] rounded-[20px] bg-neutral-100 shadow-bar;
 }
 /* ========== */
 

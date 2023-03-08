@@ -132,7 +132,7 @@
 
 /* DetailInfoSkeleton */
 .detail-info-skeleton {
-  @apply flex flex-col gap-[12px];
+  @apply w-full flex flex-col gap-[12px];
 }
 
 .detail-info-skeleton-1 {

@@ -55,8 +55,10 @@ function Info() {
                   <TextInfoSkeleton />
                 </div>
               </div>
-              <div className="bottom-info-section">
-                <DetailInfoSkeleton />
+              <div className="bottom-info">
+                <div className="bottom-info-section">
+                  <DetailInfoSkeleton />
+                </div>
               </div>
             </>
           )}
