@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   basePath: '',
   images: {
-    domains: ['drive.google.com', 'cdn0.fahasa.com'],
+    domains: ['drive.google.com', 'cdn0.fahasa.com', 'manybooks.net'],
   },
   env: {
     LOCAL_API: process.env.LOCAL_API,
