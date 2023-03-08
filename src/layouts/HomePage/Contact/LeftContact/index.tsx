@@ -60,6 +60,8 @@ function LeftContact() {
       <div className="download">
         <Button
           type="link"
+          href="https://drive.google.com/file/d/1ibUBEgwKtM8tBGqfE3fyFfxstLhDRL1l/view?usp=share_link"
+          target="_blank"
           className="download-btn"
         >
           {DOWNLOAD_BUTTON}
